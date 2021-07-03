@@ -7,7 +7,7 @@ const outputPath = path.join(__dirname, 'build/web');
 
 module.exports = merge(common ,{
     mode: 'production',
-    entry: path.join(__dirname, '../static/index.js'),
+    entry: path.join(__dirname, 'static/index.js'),
     output: {
         path: outputPath,
         filename: 'index.js'

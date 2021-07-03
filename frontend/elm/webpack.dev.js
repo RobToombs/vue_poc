@@ -6,7 +6,7 @@ module.exports = merge(common ,{
     mode: 'development',
     entry: [
         `webpack-dev-server/client?http://localhost:9000`,
-        path.join(__dirname, '../static/index.js')
+        path.join(__dirname, 'static/index.js')
     ],
     module: {
         rules: [{
